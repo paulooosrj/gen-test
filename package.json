@@ -1,6 +1,10 @@
 {
   "name": "npx-git-diff-name-status",
   "version": "0.0.0",
+  "main": "./index",
   "bin": "./index.js",
+  "bin": {
+    "gen-test": "./index.js",
+  },
   "dependencies": {}
 }
